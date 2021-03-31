@@ -1,19 +1,13 @@
 <?php 
 
-/* 数字 と 文字
-// 数字は半角
-*/
+// 変数 動的型付き java, Visual Basic 静的型付
 
-echo(123);
-echo('<br>');
-// １２３・・文字として認識
+$test = 123;
+// $test = 'テストです';
 
-echo('こんにちは');
-echo('<br>');
-echo("こんばんは");
-echo('<br>');
-echo('こんば""んは');
-echo('<br>');
-echo('こちらはPHPです');
+// 配列　オブジェクト コレクション型
+var_dump($test);
+
+// echo $test;
 
 ?>
